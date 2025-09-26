@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+  }
+  .contact-container {
+    max-width: 700px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 100%;
+  }
+  textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  button {
+    background: #00bcd4;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  button:hover {
+    background: #0097a7;
+  }
+  .info {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+    font-size: 15px;
+  }
+  .info a {
+    color: #9ddbe3;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+  background: #e68900;
+}
+.home-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  background: #ff9800;
+  color: #063b54;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.home-btn:hover {
+  background: #e68900;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #675252;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+header nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #ddd;
+  transition: 0.3s;
+  position: sticky;
+  top:1px;
+}
+
+header nav a:hover {
+  color: #ff9800;
+}

@@ -1,0 +1,66 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #675252;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+header nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #ddd;
+  transition: 0.3s;
+  position: sticky;
+  top:1px;
+}
+
+header nav a:hover {
+  color: #ff9800;
+}
+.about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+  margin-top: 60px; /* navbar ke liye space */
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.skills h1 {
+  margin-bottom: 15px;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skill {
+  background: #222;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
